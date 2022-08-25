@@ -1,13 +1,16 @@
 import './App.css';
-import Login from './assets/login.svg'
+import Home from './pages/home/Home';
 
 function App() {
   return (
-    <div className="App">
-      Hello SocieX
-      <img src={Login} alt="" />
+    <div>
+      <Home />
     </div>
   );
 }
+
+
+
+
 
 export default App;
