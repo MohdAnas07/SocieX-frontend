@@ -2,8 +2,8 @@
     flex: 3;
     height: calc(100vh - 60px);
     overflow-y: scroll;
-    position: sticky;
-    top: 60x;
+    position: sticky ;
+    top: 60x ;
 }
 
 ::-webkit-scrollbar{
@@ -15,6 +15,7 @@
 ::-webkit-scrollbar-thumb{
     background-color: rgb(187, 187, 187);
 }
+
 
 
 .sidebarWrapper{
