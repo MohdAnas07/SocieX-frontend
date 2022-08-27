@@ -35,7 +35,7 @@
 }
 
 .searchIcon{
-    margin-left: 10px;
+    margin:0 10px;
     font-size: 20px !important;
     cursor: pointer;
 }
