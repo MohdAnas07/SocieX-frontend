@@ -23,46 +23,6 @@ export default function Rightbar() {
                         <span className="rightbarUsername">John Doe</span>
                     </li>
 
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img src="assets/person/4.jpeg" alt="profile" className="rightbarProfileImg" />
-                            <span className="rightbarOnline"></span>
-                        </div>
-                        <span className="rightbarUsername">John Doe</span>
-                    </li>
-
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img src="assets/person/4.jpeg" alt="profile" className="rightbarProfileImg" />
-                            <span className="rightbarOnline"></span>
-                        </div>
-                        <span className="rightbarUsername">John Doe</span>
-                    </li>
-
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img src="assets/person/4.jpeg" alt="profile" className="rightbarProfileImg" />
-                            <span className="rightbarOnline"></span>
-                        </div>
-                        <span className="rightbarUsername">John Doe</span>
-                    </li>
-
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img src="assets/person/4.jpeg" alt="profile" className="rightbarProfileImg" />
-                            <span className="rightbarOnline"></span>
-                        </div>
-                        <span className="rightbarUsername">John Doe</span>
-                    </li>
-
-                    <li className="rightbarFriend">
-                        <div className="rightbarProfileImgContainer">
-                            <img src="assets/person/4.jpeg" alt="profile" className="rightbarProfileImg" />
-                            <span className="rightbarOnline"></span>
-                        </div>
-                        <span className="rightbarUsername">John Doe</span>
-                    </li>
-
                 </ul>
             </div>
         </div>

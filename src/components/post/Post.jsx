@@ -4,6 +4,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 import { Users } from '../../dummyData';
 
 const Post = ({ post }) => {
+
     const { id, photo, desc, date, userId, like, comment } = post;
 
     let { profilePicture, username } = Users.filter(user => user.id === userId)[0]
