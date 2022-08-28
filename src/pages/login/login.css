@@ -45,7 +45,7 @@
 }
 
 .loginLeftWrapper{
-    height: 350px;
+    height: 350px !important;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@
 
 .loginExtraButtons{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between !important;
     align-items: center;
 }
 

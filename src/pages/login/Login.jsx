@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './login.css'
 
 import VisibilityIcon from '@mui/icons-material/Visibility';
@@ -28,7 +29,7 @@ const Login = () => {
                             <button className="loginButton">Log In</button>
                             <div className="loginExtraButtons">
                                 <span className="loginForgot">forgot password?</span>
-                                <button className="loginRegisterButton">create an account</button>
+                                <Link to="/register"><button className="loginRegisterButton">create an account</button></Link>
                             </div>
 
                         </div>

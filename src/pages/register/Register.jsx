@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './register.css'
+import { Link } from 'react-router-dom'
 
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
@@ -15,9 +16,8 @@ const Register = () => {
     return (
         <div className='login'>
             <div className="loginWrapper">
-
                 <div className="loginLeft">
-                    <div className="loginLeftWrapper">
+                    <div className="registerLeftWrapper">
                         <h4 className="loginLogo">SocieX</h4>
                         <div className="loginBox">
                             <input placeholder='Enter Username' className='loginInput' />
@@ -28,10 +28,10 @@ const Register = () => {
                             </div>
                             <input type={!isVisible ? "password" : "text"} placeholder='Enter Password again' className='loginInput' />
 
-                            <button className="loginButton">Sign Up In</button>
+                            <button className="loginButton">Sign Up</button>
 
-                            <div className="loginExtraButtons">
-                                <button className="loginRegisterButton">Login into account</button>
+                            <div className="registerExtraButtons">
+                                <Link to="/"> <button className="loginRegisterButton">Login into account</button></Link>
                             </div>
 
                         </div>

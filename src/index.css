@@ -37,6 +37,9 @@ code {
 button, a{
   cursor: pointer;
 }
+a{
+  text-decoration: none;
+}
 
 
 li{
