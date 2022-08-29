@@ -79,6 +79,7 @@
     flex-direction: column;
     margin-bottom: 20px;
     cursor: pointer;
+    text-align: center;
 }
 
 
@@ -87,4 +88,5 @@
     height: 100px;
     object-fit: cover;
     border-radius: 10px;
+    margin-bottom: 5px;
 }
